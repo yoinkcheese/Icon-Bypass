@@ -19,7 +19,7 @@
 			"default": true
 		}
 	},
-	"tags":["offline, cheat, utility"],
+	"tags":["offline", "cheat", "utility"],
 	"dependencies": {
 		"geode.node-ids": ">=v1.23.3"
 	}
