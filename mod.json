@@ -1,0 +1,25 @@
+{
+	"geode": "5.7.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "yoinkcheese.icon-bypass",
+	"name": "Icon Bypass",
+	"version": "v1.0.0",
+	"developer": "Yoinkcheese",
+	"description": "Thanks to Ryder7223 for helping me alot throughout this project",
+	"settings": {
+		"unlock-icons":{
+			"name": "Unlock Icons",
+			"description": "Toggles the bypass",
+			"type": "bool",
+			"default": true
+		}
+	},
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	}
+}
