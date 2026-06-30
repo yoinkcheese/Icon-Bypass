@@ -16,3 +16,18 @@ class $modify(MyGameManager, GameManager) {
         return true;
     }
 };
+
+class $modify(UnlockShopsGMHook, GameManager) {
+    bool getUGV(const char* key) {
+        if (!Mod::get()->getSettingValue<bool>("unlock-shops")) {
+            return GameManager::getUGV(key);
+        }
+        if (GameManager::getUGV(key)) {
+            return true;
+        }
+        return strcmp(key, "11") == 0 ||
+               strcmp(key, "20") == 0 ||
+               strcmp(key, "34") == 0 ||
+               strcmp(key, "35") == 0;
+    }
+};
