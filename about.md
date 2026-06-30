@@ -1,6 +1,6 @@
 # Icon Bypass
 
-This mod unlocks all icon (wow who knew)
+This mod unlocks all icons (wow who knew)
 
 
 ## Credits
