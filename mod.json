@@ -8,13 +8,19 @@
 	},
 	"id": "yoinkcheese.icon-bypass",
 	"name": "Icon Bypass",
-	"version": "v1.0.0",
-	"developer": "Yoinkcheese",
-	"description": "Thanks to Ryder7223 for helping me alot throughout this project",
+	"version": "v1.0.1",
+	"developers": ["Yoinkcheese", "Ryder7223"],
+	"description": "Unlocks all icons, colors, and shops",
 	"settings": {
 		"unlock-icons":{
 			"name": "Unlock Icons",
-			"description": "Toggles the bypass",
+			"description": "Toggles the icons/colors bypass",
+			"type": "bool",
+			"default": true
+		},
+		"unlock-shops":{
+			"name": "Unlock Shops",
+			"description": "Toggles the shop bypass",
 			"type": "bool",
 			"default": true
 		}
